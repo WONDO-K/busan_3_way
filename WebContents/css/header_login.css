@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+.header {
+	height: 70px;                     /* header 박스 크기 */
+	border-bottom: 1px solid black;   /* header 박스 밑에 줄 */
+	align-items: center;              /* 박스 안에서 정렬(중간) */
+}
+.header_title {
+	text-align: center;               /* title 가운데 정렬 */
+	font-size: 35px;                  /* title 크기 */               
+}
+.header_title a {
+	text-decoration-line: none;
+}
+.loginform {
+	float: left;
+	margin-left: 20px;
+	margin-top: -30px;
+	text-align: center;
+}
+.header_menus {
+	display: flex;                    /* menus 정렬 */                 
+	float: right;                     /* 오른쪽으로 정렬 */
+	margin-right: 20px;               /* 오른쪽 여백 */
+}
+
+.header_menus a {
+	margin-left: 10px;
+	text-decoration-line: none;
+}

@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+ main { width: 80%; margin:0 auto; }
+ 
+ a         { text-decoration: none; color:blue; }
+ a:hover   { text-decoration: underline; }
+ 
+ #menus   a         { background: white; }
+ #menus   td:hover   { background: yellow; }
+ 
+  table     { width:80%; margin:70px 0 0 150px;}
+  table, td { border:1px solid black; border-collapse: collapse; height: 50px; text-align:center; }
+  /* td        { text-align:center; } */
+  /* tr        { height: 10px; } */
+  .right    { text-align:right; }
+  h2{ text-align:center;}
+  div#btn { text-align:right; margin:0 255px 0 0px;}

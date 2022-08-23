@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+.panel1 {
+	border: 1px solid black;
+	width: 1150px;
+	height: 700px;
+	float: left;
+}
+h2 {
+	text-align: center;
+}
+.panel2 {
+	border: 1px solid black;
+	width: 700px;
+	height: 700px;
+	float: right;
+}
+.search {
+	margin: 5px;
+}
+.search input {
+	width: 300px;
+	height: 30px;
+}
+.search_btn {
+	margin: 5px;
+}
+.check_box1 {
+	display: inline-block;
+	width: 15%;
+	float: left;
+}
+.check_box2 {
+	display: inline-block;
+	width: 40%;
+}
+.box {
+	border: 1px solid black;
+	width: 216px;
+	float: left;
+	height: 280px;
+	margin: 5px;	
+}
+.imgbox {
+	border: 1px solid black;
+	margin: 5px;
+}
+.imgbox input {
+	width: 200px;
+	height: 200px;
+}
+.panel3 {
+	border: 1px solid black;
+	width: 1725px;
+	height: 267px;
+	float: left;
+	line-height: 280px;	
+}
+.panel3 input {
+	width: 1500px;
+	height: 150px;
+	margin: 0px 100px;
+}
+#main6 {
+	clear: left;
+	border: 1px solid black;
+	text-align: center;
+}

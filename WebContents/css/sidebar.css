@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+img {
+	width: 10px;
+	height: 10px;
+}
+
+.sidebar {
+	background: linear-gradient(#0EDAED, #DCF9FC);
+	color: white;
+    text-align: center;
+	height: 970px;
+    float: left;
+	position: sticky; 
+	position: -webkit-sticky; 
+	top: 0px;
+}
+ #id, #pw {
+    width: 150px;
+    float: right;
+ }
+ body {
+    margin: 0;
+ }
+ .btn1 {
+    padding: 7px 2px;
+    text-align: center;
+ }
+ .menu {
+    text-align: center;
+    padding: 50px 0px 0px 0px;
+    text-decoration: none;
+    line-height: 100px;
+ }
+ .location {
+    text-align: center;
+ }
+ h3 {
+    margin: 50px;
+ }
+ b {
+    background-color: blue;
+    padding: 50px;
+    margin: 10px;
+    border-radius: 15px;
+ }
+ 

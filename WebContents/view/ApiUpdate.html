@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+  $(function() { 
+	  $('#updateStoreBtn').on('click', function() {
+	  $.ajax({
+		  url :'http://localhost:9091/storeUpdate',
+		  data:{StoreAPI : $('#StoreAPI').val()},
+		  success:function(data) {
+			  console.log(data);
+			  alert(data);
+		  },
+		  error :function(xhr) {
+			  alert(xhr.status + ':' + xhr.statusText);
+		  }
+	  })
+	  });
+  });
+  
+  $(function() { 
+	  $('#updateFestBtn').on('click', function() {
+	  $.ajax({
+		  url :'http://localhost:9091/festivalUpdate',
+		  data:{FestivalAPI : $('#FestivalAPI').val()},
+		  success:function(data) {
+			  console.log(data);
+			  alert(data);
+		  },
+		  error :function(xhr) {
+			  alert(xhr.status + ':' + xhr.statusText);
+		  }
+	  })
+	  });
+  });
+  
+  $(function() { 
+	  $('#updateAttractionBtn').on('click', function() {
+	  $.ajax({
+		  url :'http://localhost:9091/attractionUpdate',
+		  data:{AttractionAPI : $('#AttractionAPI').val()},
+		  success:function(data) {
+			  console.log(data);
+			  alert(data);
+		  },
+		  error :function(xhr) {
+			  alert(xhr.status + ':' + xhr.statusText);
+		  }
+	  })
+	  });
+  });
+</script>
+</head>
+<body>
+  <input type="text" id="StoreAPI" value="맛집 정보 업데이트" />
+  <button id="updateStoreBtn">Store Update</button>
+  <input type="text" id="FestivalAPI" value="축제 정보 업데이트" />
+  <button id="updateFestBtn">Festival Update</button>
+  <input type="text" id="AttractionAPI" value="명소 정보 업데이트" />
+  <button id="updateAttractionBtn">Attraction Update</button>
+</body>
+</html>
